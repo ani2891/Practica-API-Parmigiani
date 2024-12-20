@@ -9,7 +9,7 @@ namespace Practica_API_Parmigiani.Controllers
     public class VehiculosHerenciaController : ControllerBase
     {
         [HttpGet]
-        //el método específico debe ejecutarse en respuesta a solicitudes HTTP GET
+        //el método específico debe ejecutarse en respuesta a solicitudes HTTP GET test
 
         public string GetVehiculo()
         {

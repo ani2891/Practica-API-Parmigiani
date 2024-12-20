@@ -21,5 +21,14 @@ namespace Practica_API_Parmigiani.Controllers
             return camion.Frenar();
 
         }
+
+        [HttpGet]
+        [Route("api/EjemploInterfazImplementacion")]
+        public string EjemploInterfazImplementacion()
+        {
+            IVehiculos camion = new Camion();
+            return camion.ObtenerDistanciaRecorrida();
+
+        }
     }
 }

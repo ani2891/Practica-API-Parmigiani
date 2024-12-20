@@ -8,11 +8,7 @@
         public Vehiculo()
         {
 
-
-
         }
-
-
         public virtual string Acelerar() /*metodo de tipo string que en el return va a mostrar ese mensaje*/
         {
             return "el vehiculo acelero"; /*los metodos que NO son de tipo void, siempre tienen return*/
